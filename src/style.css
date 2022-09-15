@@ -1,20 +1,20 @@
 /* styles go here */
+.form__btn {
+  margin-top: 20px;
+}
+
 .form__section {
-  margin: 20px 0;
+  margin-top: 20px;
 }
 
 .form__item {
-  margin: 10px 0;
+  margin-bottom: 10px;
 }
 
 .form__section:first-child {
   margin-top: 0;
 }
 
-.form__section > .form__item:first-of-type {
-  margin-top: 0;
-}
-
-.form__section > .form__item:last-child {
+.form__item:last-child {
   margin-bottom: 0;
 }
